@@ -154,7 +154,7 @@ extension DiaryWallViewController {
         }
     }
     
-    func cellIdentifier(for viewModel: RowViewModel) -> String {
+    func cellIdentifier(for viewModel: CellViewModel) -> String {
         switch viewModel {
         case is DiaryCellViewModel:
             return WallDiaryCell.cellIdentifier()

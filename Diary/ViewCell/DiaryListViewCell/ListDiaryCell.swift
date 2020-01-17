@@ -43,7 +43,7 @@ class ListDiaryCell:UITableViewCell,CellConfigurable{
         return image
     }()
     
-    func setup(viewModel:RowViewModel){
+    func setup(viewModel:CellViewModel){
         guard let viewModel = viewModel as? DiaryCellViewModel else { return }
         self.viewModel = viewModel
         self.titleLabel.text = viewModel.title

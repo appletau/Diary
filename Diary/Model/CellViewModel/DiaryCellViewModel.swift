@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class DiaryCellViewModel:RowViewModel{
+class DiaryCellViewModel:CellViewModel{
     let identifier:UUID
     var userId:String
     var title:String

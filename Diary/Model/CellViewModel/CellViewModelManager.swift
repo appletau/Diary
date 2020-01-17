@@ -1,5 +1,5 @@
 //
-//  RowViewModelManager.swift
+//  CellViewModelManager.swift
 //  Diary
 //
 //  Created by tautau on 2019/12/23.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-protocol RowViewModelManager {
+protocol CellViewModelManager {
     func memberCellButtonClicked(_ user: Member, viewModel : MemberCellViewModel) -> (() -> Void)
-    func convertToVM(item:Listable)->RowViewModel?
+    func convertToVM(item:Listable)->CellViewModel?
 }
 
-extension RowViewModelManager {
+extension CellViewModelManager {
     typealias dateHeader = String
     
     func convertToSection(userDataList:[UserData]) -> [dateHeader:[Listable]] {
@@ -35,7 +35,7 @@ extension RowViewModelManager {
         return self.converToSectionViewModel(newSectionTable)
     }
     
-    func converToSectionViewModel(_ sectionTable: [dateHeader: [RowViewModel]]) -> [SectionViewModel] {
+    func converToSectionViewModel(_ sectionTable: [dateHeader: [CellViewModel]]) -> [SectionViewModel] {
         let sortedGroupingKey = sectionTable.keys.sorted(by: dateStringDescComparator())
         return sortedGroupingKey.map {SectionViewModel(rowViewModels: sectionTable[$0]!, headerTitle: $0)}
     }

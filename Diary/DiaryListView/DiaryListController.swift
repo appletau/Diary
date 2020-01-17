@@ -56,8 +56,8 @@ extension DiaryListController {
     }
 }
 
-extension DiaryListController:RowViewModelManager {
-    func convertToVM(item:Listable)->RowViewModel?{
+extension DiaryListController:CellViewModelManager {
+    func convertToVM(item:Listable)->CellViewModel?{
         if let diary = item as? Diary
         {
             let diaryCellViewModel = DiaryCellViewModel(withDiary: diary)

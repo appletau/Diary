@@ -53,7 +53,7 @@ class ListMemberCell:UITableViewCell,CellConfigurable{
     }()
     
     
-    func setup(viewModel:RowViewModel){
+    func setup(viewModel:CellViewModel){
         guard let viewModel = viewModel as? MemberCellViewModel else { return }
         self.viewModel = viewModel
         self.nameLabel.text = viewModel.name

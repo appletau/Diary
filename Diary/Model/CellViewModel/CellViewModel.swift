@@ -1,5 +1,5 @@
 //
-//  RowViewModel.swift
+//  CellViewModel.swift
 //  Diary
 //
 //  Created by tautau on 2019/7/22.
@@ -7,6 +7,6 @@
 //
 
 import Foundation
-protocol RowViewModel {
+protocol CellViewModel {
     var identifier:UUID { get }
 }

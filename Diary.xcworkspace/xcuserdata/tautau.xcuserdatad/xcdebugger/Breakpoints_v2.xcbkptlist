@@ -20,14 +20,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5D581805-3430-4568-A8CF-17AE6C13FE0E - 8b01ef4f6c029bf6"
+                  uuid = "5D581805-3430-4568-A8CF-17AE6C13FE0E - af2991cd0d86bb4c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Diary.WallDiaryCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Diary.WallDiaryCell&gt;"
                   moduleName = "Diary"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tautau/Desktop/Swift/My_Project/Diary_20191220/Diary/ViewCell/DiaryWallViewCell/WallDiaryCell.swift"
+                  urlString = "file:///Users/tautau/Desktop/Swift/My_Project/Diary/Diary_App/Diary/ViewCell/DiaryWallViewCell/WallDiaryCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -35,14 +35,14 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  uuid = "5D581805-3430-4568-A8CF-17AE6C13FE0E - 10f9ba0e29ee21b6"
+                  uuid = "5D581805-3430-4568-A8CF-17AE6C13FE0E - 34d1c48c486a010c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Diary.WallDiaryCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Diary.WallDiaryCell&gt;"
                   moduleName = "Diary"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tautau/Desktop/Swift/My_Project/Diary_20191220/Diary/ViewCell/DiaryWallViewCell/WallDiaryCell.swift"
+                  urlString = "file:///Users/tautau/Desktop/Swift/My_Project/Diary/Diary_App/Diary/ViewCell/DiaryWallViewCell/WallDiaryCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"

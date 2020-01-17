@@ -13,7 +13,7 @@
 		E258AB0122E561930077BE8F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0022E561930077BE8F /* Observable.swift */; };
 		E258AB0322E580100077BE8F /* ListDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0222E580100077BE8F /* ListDiaryCell.swift */; };
 		E258AB0522E580310077BE8F /* DiaryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0422E580310077BE8F /* DiaryCellViewModel.swift */; };
-		E258AB0722E5A53A0077BE8F /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0622E5A53A0077BE8F /* RowViewModel.swift */; };
+		E258AB0722E5A53A0077BE8F /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0622E5A53A0077BE8F /* CellViewModel.swift */; };
 		E258AB0922E5A8410077BE8F /* DiaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0822E5A8410077BE8F /* DiaryListViewModel.swift */; };
 		E258AB0C22E5AB310077BE8F /* DiaryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258AB0B22E5AB310077BE8F /* DiaryListController.swift */; };
 		E25C0AA122E2DA0000798F9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C0AA022E2DA0000798F9E /* Extensions.swift */; };
@@ -44,7 +44,7 @@
 		E2A6CEDE23A75AF100B22C21 /* UserDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6CEDD23A75AF100B22C21 /* UserDataController.swift */; };
 		E2A6CEE023A7642500B22C21 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6CEDF23A7642500B22C21 /* UserDataViewController.swift */; };
 		E2A6CEE423A77BE000B22C21 /* UserDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A6CEE323A77BE000B22C21 /* UserDiaryCell.swift */; };
-		E2A79A4A23B0D486006FE1D9 /* RowViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A79A4923B0D486006FE1D9 /* RowViewModelManager.swift */; };
+		E2A79A4A23B0D486006FE1D9 /* CellViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A79A4923B0D486006FE1D9 /* CellViewModelManager.swift */; };
 		E2A8E97422E9C17700249FE3 /* AddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8E97322E9C17700249FE3 /* AddDiaryViewController.swift */; };
 		E2B0EB4623A8E68400B1BFDB /* DiaryDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0EB4523A8E68400B1BFDB /* DiaryDetailedViewController.swift */; };
 		E2B1969E23ACB22C004BDEA1 /* PeriodOfDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1969D23ACB22C004BDEA1 /* PeriodOfDate.swift */; };
@@ -67,7 +67,7 @@
 		E258AB0022E561930077BE8F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		E258AB0222E580100077BE8F /* ListDiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDiaryCell.swift; sourceTree = "<group>"; };
 		E258AB0422E580310077BE8F /* DiaryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCellViewModel.swift; sourceTree = "<group>"; };
-		E258AB0622E5A53A0077BE8F /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		E258AB0622E5A53A0077BE8F /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 		E258AB0822E5A8410077BE8F /* DiaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewModel.swift; sourceTree = "<group>"; };
 		E258AB0B22E5AB310077BE8F /* DiaryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListController.swift; sourceTree = "<group>"; };
 		E25C0AA022E2DA0000798F9E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		E2A6CEDD23A75AF100B22C21 /* UserDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
 		E2A6CEDF23A7642500B22C21 /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 		E2A6CEE323A77BE000B22C21 /* UserDiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDiaryCell.swift; sourceTree = "<group>"; };
-		E2A79A4923B0D486006FE1D9 /* RowViewModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModelManager.swift; sourceTree = "<group>"; };
+		E2A79A4923B0D486006FE1D9 /* CellViewModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModelManager.swift; sourceTree = "<group>"; };
 		E2A8E97322E9C17700249FE3 /* AddDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryViewController.swift; sourceTree = "<group>"; };
 		E2B0EB4523A8E68400B1BFDB /* DiaryDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailedViewController.swift; sourceTree = "<group>"; };
 		E2B1969D23ACB22C004BDEA1 /* PeriodOfDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodOfDate.swift; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 				E25C767322E19E7A00B79090 /* Listable.swift */,
 				E25C767722E19EBD00B79090 /* Diary.swift */,
 				E25C767522E19EA700B79090 /* Member.swift */,
-				E2A6CED923A7189000B22C21 /* RowViewModel */,
+				E2A6CED923A7189000B22C21 /* CellViewModel */,
 				E2B0EB4223A8619300B1BFDB /* SectionViewModel */,
 			);
 			path = Model;
@@ -287,15 +287,15 @@
 			path = CollectionSection;
 			sourceTree = "<group>";
 		};
-		E2A6CED923A7189000B22C21 /* RowViewModel */ = {
+		E2A6CED923A7189000B22C21 /* CellViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				E258AB0622E5A53A0077BE8F /* RowViewModel.swift */,
+				E258AB0622E5A53A0077BE8F /* CellViewModel.swift */,
 				E258AB0422E580310077BE8F /* DiaryCellViewModel.swift */,
 				E258AAFE22E55F8F0077BE8F /* MemberCellViewModel.swift */,
-				E2A79A4923B0D486006FE1D9 /* RowViewModelManager.swift */,
+				E2A79A4923B0D486006FE1D9 /* CellViewModelManager.swift */,
 			);
-			path = RowViewModel;
+			path = CellViewModel;
 			sourceTree = "<group>";
 		};
 		E2A6CEDA23A7563200B22C21 /* UserDataView */ = {
@@ -515,7 +515,7 @@
 				E29C7F8423937169003D3C05 /* DataManager.swift in Sources */,
 				E2FA41BF23A48D9300F997FE /* DataSourceItem.swift in Sources */,
 				E25C767422E19E7A00B79090 /* Listable.swift in Sources */,
-				E2A79A4A23B0D486006FE1D9 /* RowViewModelManager.swift in Sources */,
+				E2A79A4A23B0D486006FE1D9 /* CellViewModelManager.swift in Sources */,
 				E2FA41BD23A48CAC00F997FE /* DiaryListDataSource.swift in Sources */,
 				E2FA41C523A4B82F00F997FE /* WallMemberCell.swift in Sources */,
 				E2B1969E23ACB22C004BDEA1 /* PeriodOfDate.swift in Sources */,
@@ -536,7 +536,7 @@
 				E25C0AA122E2DA0000798F9E /* Extensions.swift in Sources */,
 				E258AB0322E580100077BE8F /* ListDiaryCell.swift in Sources */,
 				E2FA41BB23A48C3600F997FE /* DiaryWallViewController.swift in Sources */,
-				E258AB0722E5A53A0077BE8F /* RowViewModel.swift in Sources */,
+				E258AB0722E5A53A0077BE8F /* CellViewModel.swift in Sources */,
 				E2A6CEE023A7642500B22C21 /* UserDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

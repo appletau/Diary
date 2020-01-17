@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SwiftIconFont
 
-class MemberCellViewModel:RowViewModel{
+class MemberCellViewModel:CellViewModel{
     let identifier = UUID()
     var name:String
     var avatarImage:AsyncImage

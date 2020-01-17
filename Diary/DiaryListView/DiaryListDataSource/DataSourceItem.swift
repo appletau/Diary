@@ -9,10 +9,10 @@
 import Foundation
 
 struct DataSourceItem:Hashable {
-    var value:RowViewModel
+    var value:CellViewModel
     private let identifier: UUID
     
-    init(item:RowViewModel) {
+    init(item:CellViewModel) {
         self.value = item
         self.identifier = item.identifier
     }

@@ -8,6 +8,6 @@
 
 import Foundation
 struct SectionViewModel {
-    var rowViewModels: [RowViewModel]
+    var rowViewModels: [CellViewModel]
     let headerTitle: String
 }

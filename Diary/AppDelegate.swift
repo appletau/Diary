@@ -22,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = vc
             window.makeKeyAndVisible()
         }
+        let array = PeriodOfDate.aYearBefore(date: Date()).paths
+        for date in array {
+            print("main:\(date.main)_start:\(date.startValue)_end:\(date.endValue)")
+        }
         return true
     }
     

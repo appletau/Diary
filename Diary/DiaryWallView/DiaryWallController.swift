@@ -61,7 +61,7 @@ extension DiaryWallController {
     
     private func updateDiaryWallViewModel(isUpdate:Bool) {
         if isUpdate {
-        self.viewModel.sectionViewModels.value = self.buildViewModels(sections: self.convertToSection(userDataList: old))
+            self.viewModel.sectionViewModels.value = self.buildViewModels(sections: self.convertToSection(userDataList: old))
         }
         self.viewModel.isLoading.value = !isUpdate
         self.viewModel.isCollectionViewHidden.value = !isUpdate
@@ -69,9 +69,9 @@ extension DiaryWallController {
     }
 }
 
-extension DiaryWallController:RowViewModelManager {
+extension DiaryWallController:CellViewModelManager {
     
-    func convertToVM(item:Listable)->RowViewModel?{
+    func convertToVM(item:Listable)->CellViewModel?{
         if let diary = item as? Diary
         {
             let diaryCellViewModel = DiaryCellViewModel(withDiary: diary)

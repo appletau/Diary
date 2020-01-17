@@ -23,7 +23,7 @@ class UserDataController {
             guard let info = info, let self = self else {return}
             self.updateUserInfo(userInfo: info)
             
-            UserSocialService.share.getDiaries(withID: info.id, period: PeriodOfDate.aYearBefore(date: Date())) { (result) in
+            UserSocialService.share.getDiaries(withID: info.id, period: PeriodOfDate.threeMonthBefore(date: Date())) { (result) in
                 guard let diaries = result.value else {fatalError(result.errorMessage!)}
                 self.updateRowViewModel(isUpdate: true, diaries: diaries)
             }

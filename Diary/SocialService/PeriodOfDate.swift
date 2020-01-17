@@ -66,18 +66,23 @@ enum PeriodOfDate {
     private func queryPaths(date:Date, period:Int) -> [QueryPath] {
         var array:Array<QueryPath> = []
         guard let periodBeforeDate = Calendar.current.date(byAdding: .day, value: -period, to: date) else {fatalError("Fuccccck")}
-        var startDate = StructOfDate(date: periodBeforeDate)
+        let startDate = StructOfDate(date: periodBeforeDate)
         let endDate = StructOfDate(date: date)
-        if startDate.year != endDate.year {startDate = StructOfDate(year: endDate.year, month: 1, day: 1)}
-        if startDate.month == endDate.month{
-            array.append(QueryPath(main:"\(startDate.year)_\(startDate.month.string)", startValue: startDate.day.string, endValue: endDate.day.string))
-        } else {
-            array.append(QueryPath(main: "\(startDate.year)_\(startDate.month.string)", startValue: startDate.day.string, endValue: "31"))
-            let count = endDate.month - startDate.month - 1
-            if count >= 1 {
-                for i in 1...count {array.append(QueryPath(main: "\(startDate.year)_\(startDate.month + i)", startValue: "01", endValue: "31"))}
+        
+        if startDate.year != endDate.year {
+            var interval = 12 - startDate.month
+            for i in 0...interval {
+                array.append(QueryPath(main: "\(startDate.year)_" + (startDate.month + i).string, startValue: "01", endValue: "31"))
             }
-            array.append(QueryPath(main: "\(endDate.year)_\(endDate.month.string)", startValue: "1", endValue: endDate.day.string))
+            interval = endDate.month - 1
+            for i in 0...interval {
+                array.append(QueryPath(main: "\(endDate.year)_" + (endDate.month - i).string, startValue: "01", endValue: "31"))
+            }
+        } else {
+            let interval = endDate.month - startDate.month
+            for i in 0...interval {
+                array.append(QueryPath(main: "\(startDate.year)_" + (startDate.month + i).string, startValue: "01", endValue: "31"))
+            }
         }
         return array
     }
